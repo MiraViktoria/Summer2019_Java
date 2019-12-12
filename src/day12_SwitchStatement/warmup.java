@@ -3,8 +3,7 @@ package day12_SwitchStatement;
 public class warmup {
 	public static void main(String[] args) {
 		
-		  
-		        int n1 = 3, n2 = 9, n3 =5;
+		       int n1 = 3, n2 = 9, n3 =5;
 		        if (n1 == n2 && n2 ==n3) {
 		            System.out.println("All of them are equal.");
 		        }
@@ -20,9 +19,6 @@ public class warmup {
 		        else {
 		        	System.out.println("None of them are equal");
 		        }
-		        
-		
-		
 		// nested if condition:
 		         
 		        int A = 3, B = 9, C=5;
@@ -41,16 +37,13 @@ public class warmup {
 		        else {
 		        	System.out.println("None of them are equal");
 		        }
-		        
 		        /*
-		          
-		         60~70 => D
+		        60~70 => D
 		         70~80 => C
 		         80~80 => B
 		         90~100=> A  
 		          grade must be: 0~100  
 		         */
-		        
 		        int grade =101;
 		    if(grade>=0 && grade <=100) {
 		        if (grade>=60) {
@@ -67,8 +60,6 @@ public class warmup {
 		        	}
 		        }
 		        }       
-		        
-		        
 	}
 
 }

@@ -18,12 +18,9 @@ public class switchexpression {
 	 case 10-5:
 		System.out.println("Friday");
 		break;
-		
- }
+}
+ String days ="Tuesday";
  
- 
-	 
-	String days ="Tuesday";
 	 switch ( days) {
 	 
 	 case "Monday": System.out.println("Monday is fun day");
@@ -37,10 +34,7 @@ public class switchexpression {
 	 
 	 default: System.out.println( "Invalid");
 	 break;
-	 
-	  
-	 }
-	 
+	  }
 	 // switch statement expressions must be evaluated to a single value
 	 //(character, digit or text) 
 	  
@@ -64,8 +58,6 @@ public class switchexpression {
 	boolean N4 = true; // 9<8 
 	//switch (N4) {} error 
 	//-----------------------------------------------------------------
-	
-	 
 	// or logic:
 	
 	char grade = 'B';
@@ -74,10 +66,8 @@ public class switchexpression {
 			
 	} else {
 		System.out.println( "failed");
-		
 	}
-	
-		switch (grade) {
+	switch (grade) {
 		case 'A':  // like OR logic
 		case 'B':
 			System.out.println("passed the exam");
@@ -86,9 +76,7 @@ public class switchexpression {
 			default:
 				System.out.println("failed exam");
 		}
-		
 	//-------------------------------------------
-		
 		String US = "USA";
 		if (US == "USA" || US =="America" || US == "US") {    // 3 OR
 			System.out.println( "American");
@@ -106,29 +94,9 @@ public class switchexpression {
 			 default:
 				 System.out.println("Not American");
 		 }
-		 
-		 //-----------------------------------------------------
-	
-	// Whenever you are writing code and checking if some variable equals different values.
+		// Whenever you are writing code and checking if some variable equals different values.
        //  1) You can use multi branch if statements
        //  2) Switch statement
-	
-	
-	
-	 
-	 
- 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	}
+}
 
 }

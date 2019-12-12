@@ -28,12 +28,6 @@ public class Multi_branch_ifStatement {
 		
 			else {
 				System.out.println("else block");
-		
-		
 		}
-	
-	
-		
-		
 	}
 }

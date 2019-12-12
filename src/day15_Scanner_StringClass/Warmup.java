@@ -47,8 +47,6 @@ public class Warmup {
 	                        :n==1? "one" :n==0? "zero" :"Invalid";
 	        
 	        System.out.println(result2);
-	        
-	        
 	    }
 }
 	 

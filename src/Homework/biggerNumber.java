@@ -1,26 +1,28 @@
 package Homework;
 
+import java.util.Scanner;
+
 public class biggerNumber {
 
 	
 	public static void main(String[] args) {
 		
-	int Num1 = 1, Num2= 2, Num3 = 5;
-	 
-	if ( Num1 > Num2) {
-		System.out.println("Num1 is bigger");
-	}
- 
-	if (Num1 >Num2) {
-		System.out.println("Num1 is bigger");
-	}
+		Scanner scan = new Scanner(System.in);
 	
-	if (Num2 < Num3) {
-	 System.out.println("Num3 is bigger");
-	}
-	
+	    String word = scan.next();
+		int count = 0;
+		for(int i=0; i < word.length()-3; i++) {
 		
-	}
+			if(word.substring(i,i+4).equals("java")) {
+			
+				count++;
+				
+			}
+				
+		}
+		System.out.println(count);
+		
 	
 	
-}
+}}
+

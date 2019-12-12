@@ -1,10 +1,7 @@
 package day15_Scanner_StringClass;
 
 public class StringClass {
-	
-	
 	public static void main(String[] args) {
-		
 	/*
 	 * String class:  
 	 * 1. String is an abject. there are 2 way to create object from String class.
@@ -17,22 +14,14 @@ public class StringClass {
 	 *  
 	 *      string literals
 	 *      
-	 *  
 	 *      when the object is created by String literals that object will be saved at String Pool (does not take dublicates) 
-	 *      
-	 *    
-	 * 
+	  * 
 	 *  2. Created by  using "new" keyword  : saved in heap memory outside of String Pool   
 	 *   
 	 * 	 string str = new Spring("Cybertek ") 
 	 * 
 	 *  every time "New" is created,  every time new memory is created, even if its same value.
 	 */
-		
-		
-		
-		
-		
 		         String str = "Cybertek";
 				  String A ="Cybertek";
 				    String B ="Cybertek";
@@ -54,7 +43,6 @@ public class StringClass {
 		String s4 = new String ("Cat");
 		System.out.println(s3 == s4);// different memory location
 		
-		
 		String a = "Batch12";
 		String b = "Batch12";
 		System.out.println( a==b); // false
@@ -62,16 +50,5 @@ public class StringClass {
 		String c = new String ("Cybertek");
 		String d = new String ("Cybertek");
 		System.out.println( c==d); // false, different locations
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
-	
-
 }

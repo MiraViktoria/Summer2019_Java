@@ -15,7 +15,7 @@ public class scanner {
    public static void main(String[] args) {
        //  boolean, float, double,  long
        
-       String day  ="Friday";
+       String day  ="Monday";
        
        switch (day) {
            case "Monday":        
@@ -37,12 +37,6 @@ public class scanner {
                System.out.println("Day off");
        
        }
-       
-       
-       
-       
-       
-       
    }
    
 }

@@ -36,15 +36,9 @@ public class ScannerClass {
          double num6 = input.nextDouble();   // returns the user input as double value
              
      
-     
-     
-     
  }
  
- 
-		
-		
-	}
+ }
 	
 
 

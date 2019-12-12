@@ -43,12 +43,6 @@ public class ScannerClass {
 			System.out.println(" you have entered:" + byteNum2);
 			
 			System.out.println("Addition is:" + (byteNum + byteNum2));
-			
-			
-			
-			
-		}
-
-	 
+	}
 	
 }
